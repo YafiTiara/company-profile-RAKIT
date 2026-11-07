@@ -28,15 +28,15 @@
     ],
     "telemetryModes": [
       {
-        "id": "founder-architect",
-        "label": "Lead Architect",
-        "roleTag": "Founder & Systems Engineer",
-        "image": "Asset/img/founder-formal-suit.jpg",
-        "alt": "Muhammad Yafi Abdul Hafiz — Founder & Lead Systems Architect RAKIT Studio mengenakan setelan jas formal",
-        "caption": "Muhammad Yafi Abdul Hafiz — BNSP Certified Software Developer & Founder RAKIT Studio",
-        "systemStatus": "BNSP TIK.2149.000.076.2024 • UNJ Systems & Admin",
-        "liveMetricLabel": "Production Systems Shipped",
-        "liveMetricValue": "10+ Ekosistem Aktif"
+        "id": "founder-mode",
+        "label": "Founder Mode",
+        "roleTag": "Founder & Systems Architect",
+        "image": "Asset/img/founder-mode.jpg",
+        "alt": "Muhammad Yafi Abdul Hafiz — Founder & Lead Systems Architect RAKIT Studio (Founder Mode)",
+        "caption": "Muhammad Yafi Abdul Hafiz — Founder & Lead Systems Architect RAKIT Studio",
+        "systemStatus": "● LIVE BROADCAST // RAKIT ARCHITECTURE // 4K 60FPS",
+        "liveMetricLabel": "Founder Presence",
+        "liveMetricValue": "Active & Ready"
       },
       {
         "id": "executive-consultation",
@@ -225,7 +225,7 @@
     "role": "Founder, Lead Systems Architect & Business Process Consultant",
     "headline": "Dirakit oleh Praktisi yang Memahami Baris Kode Sekaligus Realita Operasional Bisnis.",
     "quote": "\"Sistem terbaik bukanlah yang paling rumit istilah teknisnya, melainkan yang paling memudahkan kasir bekerja, paling mengamankan uang pemilik bisnis, dan paling dipercaya oleh klien.\"",
-    "primaryPhoto": "Asset/img/founder-formal-suit.jpg",
+    "primaryPhoto": "Asset/img/founder-mode.jpg",
     "secondaryPhoto": "Asset/img/founder-executive-mic.jpg",
     "studioPhoto": "Asset/img/founder-portrait-studio.jpg",
     "speakingPhoto": "Asset/img/founder-unj-speaking.jpg",
