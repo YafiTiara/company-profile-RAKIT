@@ -1,0 +1,21 @@
+{
+  "name": "company-profile-rakit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "RAKIT Studio (RAKIT Digital Solutions) — Business & Growth Technology Studio by Muhammad Yafi Abdul Hafiz",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^12.4.7",
+    "lucide-react": "^0.475.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

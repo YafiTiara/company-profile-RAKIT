@@ -1,0 +1,378 @@
+{
+  "brand": "RAKIT.",
+  "brandFull": "RAKIT Studio",
+  "legalSubname": "RAKIT Digital Solutions",
+  "tagline": "Build Better Systems. Grow Better Businesses.",
+  "founderName": "Muhammad Yafi Abdul Hafiz",
+  "philosophy": "Bisnis yang solid tidak sekadar dibangun dari nol, melainkan dirakit dari komponen-komponen terbaik yang saling terintegrasi: antarmuka yang intuitif, logika operasional yang rapi, dan sistem pembayaran yang otomatis.",
+  "positioning": "RAKIT bukan sekadar agensi web design biasa atau pembuat landing page kosmetik. RAKIT adalah Business & Growth Technology Studio yang membangun solusi operasional nyata: Custom Web Applications, Point of Sales (POS), Client Management Portals/CRM, Automation Tools, dan integrasi Payment Gateway terstandarisasi.",
+  "targetAudience": [
+    "UMKM Bertumbuh (Scaling MSMEs)",
+    "Bisnis Jasa, F&B & Retail Multi-Cabang",
+    "Developer Properti & Kontraktor",
+    "Wedding / Event Organizer & Agensi Kreatif",
+    "Institusi Pendidikan & Perusahaan Mid-Market"
+  ],
+  "hero": {
+    "eyebrow": "AVAILABLE FOR Q4 2026 PROJECTS & INTEGRATIONS",
+    "isAvailable": true,
+    "headline": "Bukan Sekadar Website Estetis. Kami Merakit Sistem yang Mengakselerasi Bisnis Anda.",
+    "subheadline": "Dari POS kasir cloud, kuitansi digital tervalidasi, hingga payment gateway otomatis. RAKIT merancang infrastruktur digital tangguh yang menghemat waktu dan menggandakan transaksi bisnis Anda.",
+    "primaryCta": "Konsultasi Solusi Bisnis",
+    "secondaryCta": "Eksplorasi Live Demo",
+    "metricsStrip": [
+      "100% Tailored Code",
+      "Automated QRIS & Payment",
+      "Bank-grade Data Security",
+      "Sub-second Load Times"
+    ],
+    "telemetryModes": [
+      {
+        "id": "founder-architect",
+        "label": "Lead Architect",
+        "roleTag": "Founder & Systems Engineer",
+        "image": "Asset/img/founder-formal-suit.jpg",
+        "alt": "Muhammad Yafi Abdul Hafiz — Founder & Lead Systems Architect RAKIT Studio mengenakan setelan jas formal",
+        "caption": "Muhammad Yafi Abdul Hafiz — BNSP Certified Software Developer & Founder RAKIT Studio",
+        "systemStatus": "BNSP TIK.2149.000.076.2024 • UNJ Systems & Admin",
+        "liveMetricLabel": "Production Systems Shipped",
+        "liveMetricValue": "10+ Ekosistem Aktif"
+      },
+      {
+        "id": "executive-consultation",
+        "label": "B2B Strategy",
+        "roleTag": "Business Process & ERP",
+        "image": "Asset/img/founder-executive-mic.jpg",
+        "alt": "Muhammad Yafi Abdul Hafiz memaparkan strategi sistem dan tata kelola operasional",
+        "caption": "Pendekatan Konsultatif — Menjembatani Kebutuhan Bisnis & Arsitektur Kode Presisi",
+        "systemStatus": "DOKU Direct API • Supabase RLS • HMAC-SHA256",
+        "liveMetricLabel": "Lighthouse Performance",
+        "liveMetricValue": "98 / 100 Skor Murni"
+      },
+      {
+        "id": "academic-innovation",
+        "label": "AI & EdTech",
+        "roleTag": "AI & Enterprise Automation",
+        "image": "Asset/img/founder-unj-speaking.jpg",
+        "alt": "Muhammad Yafi Abdul Hafiz berbicara dalam forum inovasi dan kepemimpinan sistem",
+        "caption": "Inovasi Berstandar Internasional — MSU Malaysia AI-Innovation Recognition 2025",
+        "systemStatus": "Google Gemini AI • FastAPI • Real-Time Sync",
+        "liveMetricLabel": "Uptime Infrastruktur",
+        "liveMetricValue": "99.9% Edge Cloud"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "id": "stat-projects",
+      "value": 10,
+      "suffix": "+",
+      "label": "Ekosistem Web & Sistem Produksi",
+      "context": "Mulai dari ERP Properti PT BMN, Cloud POS 8 Cabang Rumah Pijat Keluarga, Command Center Bianca Wedding, hingga Portal Skripsi AI UNJ.",
+      "verifiedSource": "Terverifikasi pada repositori produksi & ruang kerja RAKIT Studio"
+    },
+    {
+      "id": "stat-modules",
+      "value": 45,
+      "suffix": "+",
+      "label": "Modul Operasional Terintegrasi",
+      "context": "Mencakup POS Kasir, Kuitansi Guilloche QR, Absensi GPS, AR/Piutang, CRM Pipeline, hingga Kalkulator & Booking Otomatis.",
+      "verifiedSource": "Terverifikasi pada arsitektur kode proyek rill di Portofolio Website"
+    },
+    {
+      "id": "stat-lighthouse",
+      "value": 98,
+      "suffix": "/100",
+      "label": "Rata-rata Skor Performa Lighthouse",
+      "context": "Kode murni bebas bloatware plugin CMS, menghasilkan waktu muat sub-detik di jaringan seluler maupun desktop.",
+      "verifiedSource": "Standar kompilasi produksi Next.js / React + Edge CDN"
+    },
+    {
+      "id": "stat-ownership",
+      "value": 100,
+      "suffix": "%",
+      "label": "Kepemilikan Kode & Tanpa Lock-in",
+      "context": "Klien memiliki aset sistem sepenuhnya tanpa pungutan sewa SaaS bulanan per akun kasir atau komisi tersembunyi.",
+      "verifiedSource": "Jaminan serah-terima kredensial & dokumentasi sistem RAKIT Studio"
+    }
+  ],
+  "pillars": [
+    {
+      "id": "custom-webapp",
+      "number": "01",
+      "badge": "OPERATIONAL ENGINE",
+      "title": "Custom Web App & Internal Tools",
+      "description": "Aplikasi web fungsional yang menggantikan pencatatan manual dan spreadsheet yang rawan selisih menjadi satu komando real-time.",
+      "deliverables": [
+        "POS Kasir Cloud Multi-Cabang & Kalkulasi Komisi Otomatis",
+        "Sistem Kuitansi Digital Terverifikasi (Guilloche Paper + HMAC Security)",
+        "Dashboard Monitoring Omzet, Piutang (AR), & Stok Real-Time",
+        "Client Management Portal, Absensi GPS Staf, & Role-Based Access"
+      ],
+      "realReference": "Terbukti pada: Sistem ERP V-3 PT BMN & Cloud POS 8 Cabang Rumah Pijat Keluarga"
+    },
+    {
+      "id": "payment-gateway",
+      "number": "02",
+      "badge": "AUTOMATED TRANSACTION",
+      "title": "Payment Gateway & Checkout Integration",
+      "description": "Otomatisasi kas masuk tanpa perlu cek mutasi rekening manual atau rekap bukti transfer palsu satu per satu.",
+      "deliverables": [
+        "Integrasi End-to-End DOKU Checkout & Direct API",
+        "Generate Dynamic QRIS Instan Sesuai Nominal Transaksi",
+        "Virtual Account Multi-Bank (BCA, Mandiri, BRI, BNI, Permata)",
+        "Verifikasi Webhook Otomatis Berbasis Kriptografi HMAC-SHA256"
+      ],
+      "realReference": "Terbukti pada: Modul Pembayaran Otomatis & Generator Invoice Dinamis"
+    },
+    {
+      "id": "high-converting-web",
+      "number": "03",
+      "badge": "GROWTH & LEAD ENGINE",
+      "title": "High-Converting Business Platforms",
+      "description": "Platform digital representatif yang bekerja 24/7 menyaring prospek berkualitas, menghitung estimasi harga, dan mengunci jadwal layanan.",
+      "deliverables": [
+        "Company Profile Interaktif Berkecepatan Tinggi (95+ Lighthouse)",
+        "Kalkulator Estimasi Biaya Proyek / Layanan Otomatis",
+        "Sistem Reservasi Jadwal, Kuota & Pemilihan Add-On Dinamis",
+        "Integrasi WhatsApp CRM Otomatis dengan Format Pesan Terstruktur"
+      ],
+      "realReference": "Terbukti pada: Bianca Wedding Command Center, Adeeva WO, & Academic Pro"
+    }
+  ],
+  "techStack": [
+    {
+      "layer": "Frontend & Experience Layer",
+      "subtitle": "Responsif, cepat, dan nyaman dioperasikan staf maupun klien",
+      "items": [
+        { "name": "Next.js 15 & React 19", "detail": "SSR/SSG & App Router untuk performa instan" },
+        { "name": "Tailwind CSS & Custom Design System", "detail": "UI presisi dengan dukungan Dark/Light Mode" },
+        { "name": "Framer Motion & Lucide Icons", "detail": "Micro-interactions halus yang memperjelas status sistem" },
+        { "name": "PWA (Progressive Web App)", "detail": "Dapat diinstal di tablet kasir & smartphone staf" }
+      ]
+    },
+    {
+      "layer": "Backend, Database & AI Engine",
+      "subtitle": "Struktur data relasional & dokumen yang siap skala besar",
+      "items": [
+        { "name": "Supabase (PostgreSQL)", "detail": "Row Level Security (RLS), Real-time Sync & Auth" },
+        { "name": "MongoDB & FastAPI / Node.js", "detail": "API Routes cepat untuk agregasi laporan & multi-cabang" },
+        { "name": "Google Gemini AI SDK", "detail": "Otomatisasi rekomendasi cerdas & analisis dokumen" },
+        { "name": "Automated PDF & CSV Engine", "detail": "Ekspor laporan pembukuan & kuitansi siap cetak" }
+      ]
+    },
+    {
+      "layer": "Security, Payment & Edge Cloud",
+      "subtitle": "Keamanan transaksi sekelas institusi finansial",
+      "items": [
+        { "name": "HMAC-SHA256 Verification", "detail": "Validasi tanda tangan kriptografi untuk webhook & e-receipt" },
+        { "name": "DOKU Payment Gateway API", "detail": "Dynamic QRIS, Virtual Account, E-Wallet & Credit Card" },
+        { "name": "Guilloche & QR Anti-Forgery", "detail": "Kuitansi digital dengan microtext & verifikasi QR langsung" },
+        { "name": "Vercel / Netlify Edge Network", "detail": "Serverless deployment dengan target uptime 99.9%" }
+      ]
+    }
+  ],
+  "architectureTrust": {
+    "eyebrow": "ARCHITECTURE & TRUST INDICATORS",
+    "headline": "Mengapa Arsitektur Kustom RAKIT Mengungguli Template CMS Generik?",
+    "subheadline": "Banyak bisnis terjebak membeli website murah berbasis template berat yang lambat, mudah diretas plugin-nya, dan tidak bisa dihubungkan ke alur operasional nyata.",
+    "indicators": [
+      {
+        "id": "zero-bloatware",
+        "metric": "95+ Skor",
+        "title": "Zero Bloatware & Sub-Second Load",
+        "description": "Tanpa puluhan plugin pihak ketiga yang membebani server. Kode dirakit khusus untuk kebutuhan bisnis Anda sehingga halaman terbuka dalam hitungan milidetik dan mendongkrak konversi iklan."
+      },
+      {
+        "id": "full-ownership",
+        "metric": "Rp 0 / bln",
+        "title": "Milik Klien Sepenuhnya (Tanpa Biaya Lisensi Mengunci)",
+        "description": "Bebas dari jebakan biaya langganan SaaS kasir bulanan yang semakin mahal saat Anda menambah cabang atau staf. Sekali bangun, sistem dan source code menjadi aset properti perusahaan Anda."
+      },
+      {
+        "id": "scalable-data",
+        "metric": "99.9% Uptime",
+        "title": "Scalable Data & Bank-Grade Security",
+        "description": "Didukung PostgreSQL (Supabase RLS) dan verifikasi HMAC-SHA256. Siap menangani lonjakan transaksi dari skala ratusan ribu hingga miliaran rupiah dengan jejak audit yang tidak bisa dimanipulasi."
+      }
+    ],
+    "comparison": [
+      {
+        "aspect": "Kecepatan & Performa (Core Web Vitals)",
+        "rakit": "Sub-second load (Skor Lighthouse 95–100), kode murni teroptimasi",
+        "generic": "Lambat (3–6 detik) akibat tumpukan theme builder & plugin berat"
+      },
+      {
+        "aspect": "Kustomisasi Logika Bisnis (POS / ERP / Kuitansi)",
+        "rakit": "100% mengikuti SOP unik perusahaan, rumus komisi, & alur termin Anda",
+        "generic": "Kaku; harus memaksa SOP bisnis mengikuti keterbatasan template"
+      },
+      {
+        "aspect": "Biaya Jangka Panjang",
+        "rakit": "Investasi terukur di awal — hak milik penuh tanpa sewa bulanan per user",
+        "generic": "Biaya langganan bulanan per kasir/cabang yang terus membengkak tiap tahun"
+      },
+      {
+        "aspect": "Keamanan Dokumen & Pembayaran",
+        "rakit": "Webhook HMAC-SHA256, Row Level Security, & Kuitansi QR Anti-Palsu",
+        "generic": "Rentan celah keamanan plugin usang & bukti transfer masih dicek manual"
+      }
+    ]
+  },
+  "founder": {
+    "eyebrow": "THE ARCHITECT BEHIND RAKIT STUDIO",
+    "name": "Muhammad Yafi Abdul Hafiz",
+    "role": "Founder, Lead Systems Architect & Business Process Consultant",
+    "headline": "Dirakit oleh Praktisi yang Memahami Baris Kode Sekaligus Realita Operasional Bisnis.",
+    "quote": "\"Sistem terbaik bukanlah yang paling rumit istilah teknisnya, melainkan yang paling memudahkan kasir bekerja, paling mengamankan uang pemilik bisnis, dan paling dipercaya oleh klien.\"",
+    "primaryPhoto": "Asset/img/founder-formal-suit.jpg",
+    "secondaryPhoto": "Asset/img/founder-executive-mic.jpg",
+    "studioPhoto": "Asset/img/founder-portrait-studio.jpg",
+    "speakingPhoto": "Asset/img/founder-unj-speaking.jpg",
+    "cvUrl": "Asset/cv/CV-Muhammad-Yafi-Abdul-Hafiz.pdf",
+    "portfolioMcUrl": "https://portofolio-yafii-phi.vercel.app/",
+    "bioParagraphs": [
+      "Banyak pemilik bisnis kecewa saat menyewa programmer lepas karena terkendala bahasa: developer mengerti kode, tetapi tidak paham bagaimana alur piutang, komisi terapis, pencairan vendor pernikahan, atau pengamanan kuitansi bekerja di lapangan. Di sisi lain, konsultan bisnis memahami SOP, namun tidak bisa menulis sistemnya sendiri.",
+      "RAKIT Studio lahir untuk menjembatani celah tersebut. Saya memulai fondasi teknis dari Rekayasa Perangkat Lunak (Software Engineering) dan mengantongi Sertifikasi Kompetensi Negara dari Badan Nasional Sertifikasi Profesi (BNSP) pada kualifikasi Pemrogram Junior (No. Reg. TIK.2149.000.076.2024), serta menjalani praktik teknis industri di PT Indocement Tunggal Prakarsa Tbk.",
+      "Saat ini saya menempuh pendidikan S-1 Pendidikan Administrasi Perkantoran di Universitas Negeri Jakarta (UNJ), aktif memimpin koordinasi sistem di PT Bungsu Mandiri Nawasena & PT Casava Nirmala Santika, serta meraih apresiasi internasional pada ajang International AI-Innovation Business Competition 2025 di Management & Science University (MSU) Malaysia. Kombinasi rekayasa perangkat lunak, ilmu administrasi korporat, dan komunikasi publik memastikan setiap sistem yang kami rakit tidak hanya berjalan mulus di server, tetapi juga mudah diadopsi oleh seluruh tim Anda."
+    ],
+    "credentials": [
+      {
+        "label": "Sertifikasi Kompetensi Negara (BNSP)",
+        "value": "Software Development — No. Reg. TIK.2149.000.076.2024"
+      },
+      {
+        "label": "Pendidikan Manajemen & Administrasi Sistem",
+        "value": "S-1 Pendidikan Administrasi Perkantoran — Universitas Negeri Jakarta (UNJ)"
+      },
+      {
+        "label": "Rekam Jejak Korporasi & Industri",
+        "value": "PT Bungsu Mandiri Nawasena, PT Casava Nirmala Santika & PT Indocement Tunggal Prakarsa Tbk"
+      },
+      {
+        "label": "Penghargaan Inovasi AI Internasional",
+        "value": "MSU Malaysia Entrepreneurship Week 8.0 — AI-Innovation Business Competition 2025"
+      }
+    ],
+    "whyTrustReasons": [
+      {
+        "title": "Komunikasi Transparan Tanpa Bahasa Teknis Berbelit",
+        "desc": "Sebagai praktisi komunikasi publik & dosen tamu (Guest Lecturer), Yafi menerjemahkan kebutuhan bisnis Anda menjadi solusi yang mudah dipahami disertai pelatihan langsung untuk staf."
+      },
+      {
+        "title": "Berbasis Studi Kasus Produksi Nyata (Bukan Dummy)",
+        "desc": "Seluruh demo di halaman ini diadaptasi langsung dari sistem nyata yang telah dibangun untuk developer properti, jaringan 8 cabang kesehatan, wedding organizer, hingga universitas."
+      },
+      {
+        "title": "Fokus pada ROI, Efisiensi Jam Kerja & Keamanan Kas",
+        "desc": "Setiap fitur dirancang dengan satu tujuan: memangkas kebocoran kas, mempercepat pembuatan laporan dari berjam-jam menjadi 1 klik, dan meningkatkan kepercayaan pelanggan Anda."
+      }
+    ],
+    "certificates": [
+      {
+        "id": "cert-bnsp",
+        "badge": "Sertifikasi Resmi Negara (BNSP)",
+        "title": "Sertifikat Kompetensi Rekayasa Perangkat Lunak (Junior Coder)",
+        "issuer": "Badan Nasional Sertifikasi Profesi (BNSP) — No. Reg. TIK.2149.000.076.2024",
+        "year": "2024 – 2027",
+        "image": "Asset/certificates/cert-bnsp-junior-coder.jpg"
+      },
+      {
+        "id": "cert-msu-ai",
+        "badge": "International AI Business Award",
+        "title": "International AI-Innovation Business Competition 2025",
+        "issuer": "Management & Science University (MSU Malaysia) — Faculty of Business Management",
+        "year": "2025",
+        "image": "Asset/certificates/cert-msu-international-ai.jpg"
+      },
+      {
+        "id": "cert-guest-lecturer",
+        "badge": "Industry & Alumni Speaker",
+        "title": "Guest Lecturer: Career & Digital Potential Management",
+        "issuer": "SMK Plus Pelita Nusantara",
+        "year": "2026",
+        "image": "Asset/certificates/cert-guest-lecturer-pelita.jpg"
+      },
+      {
+        "id": "cert-jgu-digital",
+        "badge": "Digital Economy Forum",
+        "title": "JGU Business Festival — Melek Digital untuk Generasi Muda",
+        "issuer": "Fakultas Ekonomi dan Bisnis, Jakarta Global University (JGU)",
+        "year": "2021",
+        "image": "Asset/certificates/cert-jgu-melek-digital.jpg"
+      }
+    ]
+  },
+  "packages": [
+    {
+      "id": "starter-engine",
+      "name": "Starter Engine",
+      "tagline": "Untuk bisnis yang butuh eksistensi online berkonversi tinggi + integrasi pemesanan WhatsApp CRM.",
+      "priceRange": "Rp 2,5 Jt – 4,8 Jt",
+      "timeline": "5 – 7 Hari Kerja",
+      "idealFor": "UMKM Bertumbuh, Jasa Profesional, Klinik, Agensi, & Event/Wedding Organizer",
+      "featured": false,
+      "badge": "FAST LAUNCH",
+      "features": [
+        "Arsitektur Custom Next.js / React (Skor Lighthouse 95+)",
+        "Desain UI/UX Eksklusif Berorientasi Konversi (Mobile-First)",
+        "Kalkulator Estimasi Harga / Katalog Paket Interaktif",
+        "Integrasi Formulir Booking ke WhatsApp CRM Terstruktur",
+        "Optimasi SEO Teknis Dasar, OpenGraph, & Keamanan SSL",
+        "Gratis Setup Deployment Cloud (Vercel/Netlify) & Panduan Domain",
+        "Garansi Maintenance & Dukungan Teknis 30 Hari"
+      ],
+      "ctaText": "Pilih Paket Starter Engine"
+    },
+    {
+      "id": "business-operations",
+      "name": "Business Operations",
+      "tagline": "Web app kustom/POS, database Supabase, integrasi DOKU Payment Gateway, dan dashboard admin real-time.",
+      "priceRange": "Rp 6,5 Jt – 14,5 Jt",
+      "timeline": "10 – 21 Hari Kerja",
+      "idealFor": "Retail, F&B, Franchise Jasa, Properti, & Bisnis dengan Transaksi Harian",
+      "featured": true,
+      "badge": "MOST POPULAR • FAVORITE",
+      "features": [
+        "Semua Keunggulan Starter Engine + Aplikasi Web Operasional",
+        "Database Relasional Supabase (PostgreSQL + Row Level Security)",
+        "Cloud POS Kasir / Sistem Booking Kuota & Manajemen Stok",
+        "Integrasi DOKU Payment Gateway (Dynamic QRIS, VA Multi-Bank, E-Wallet)",
+        "Generator E-Receipt / Kuitansi Digital Terverifikasi (QR + HMAC Security)",
+        "Dashboard Admin & Owner Real-Time + Ekspor Laporan Excel/PDF 1-Klik",
+        "Sesi Pelatihan Staf & Garansi Maintenance Prioritas 60 Hari"
+      ],
+      "ctaText": "Bangun Sistem Business Operations"
+    },
+    {
+      "id": "enterprise-custom",
+      "name": "Enterprise Custom",
+      "tagline": "Arsitektur multi-cabang, custom logic, integrasi pihak ketiga, dan kontrak maintenance prioritas.",
+      "priceRange": "Rp 16 Jt – 35 Jt+",
+      "timeline": "3 – 6 Minggu",
+      "idealFor": "Perusahaan Multi-Cabang, Developer Properti, Institusi Pendidikan, & Korporasi",
+      "featured": false,
+      "badge": "FULL ECOSYSTEM ERP",
+      "features": [
+        "Arsitektur Multi-Cabang & Multi-Role (Owner, Finance, HR, Kasir, Klien)",
+        "Modul ERP Kustom (AR/Piutang, Approval Berjenjang, Absensi GPS, Komisi)",
+        "Dedicated Client Portal untuk Pelacakan Termin & Dokumen Klien",
+        "Integrasi AI (Google Gemini API), Webhook Kustom, & WhatsApp Gateway",
+        "Audit Keamanan Kriptografi, Backup Database Otomatis, & Dokumentasi Sistem",
+        "Pendampingan Implementasi Lapangan & Kontrak SLA Maintenance Prioritas"
+      ],
+      "ctaText": "Diskusikan Arsitektur Enterprise"
+    }
+  ],
+  "contact": {
+    "headline": "Siap Merakit Sistem yang Mengakselerasi Bisnis Anda?",
+    "subheadline": "Ceritakan kendala operasional atau target transaksi yang ingin Anda capai. Kami bantu petakan arsitektur sistem, estimasi waktu, dan investasi terbaik secara transparan.",
+    "whatsappNumber": "6281213541185",
+    "whatsappDisplay": "+62 812-1354-1185",
+    "email": "yafijay180306@gmail.com",
+    "instagram": "@marzensi",
+    "github": "https://github.com/YafiTiara",
+    "location": "Cibinong, Kab. Bogor & DKI Jakarta (Melayani Klien Seluruh Indonesia)",
+    "copyright": "© 2026 RAKIT Studio (RAKIT Digital Solutions). Engineered with precision by Muhammad Yafi Abdul Hafiz."
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "posDemo": {
+    "branchName": "Cabang 01 — Cibinong City Center (Cloud Sync Aktif)",
+    "cashierName": "Kasir: Nabila (Shift Pagi)",
+    "taxRate": 0.11,
+    "categories": ["Semua", "Layanan Utama", "Paket Bundling", "Add-On & Produk"],
+    "products": [
+      {
+        "id": "prd-reflexology-90",
+        "sku": "RPK-001",
+        "name": "Full Body Traditional & Reflexology (90 Menit)",
+        "category": "Layanan Utama",
+        "price": 165000,
+        "commission": 45000,
+        "duration": "90 Menit",
+        "stock": "Tersedia (6 Terapis)"
+      },
+      {
+        "id": "prd-aromatherapy-120",
+        "sku": "RPK-002",
+        "name": "Royal Aromatherapy Spa & Totok Wajah (120 Menit)",
+        "category": "Layanan Utama",
+        "price": 235000,
+        "commission": 65000,
+        "duration": "120 Menit",
+        "stock": "Tersedia (4 Terapis)"
+      },
+      {
+        "id": "prd-family-pack",
+        "sku": "RPK-003",
+        "name": "Paket Keluarga Sehat (2 Dewasa + 1 Anak)",
+        "category": "Paket Bundling",
+        "price": 380000,
+        "commission": 110000,
+        "duration": "90 Menit",
+        "stock": "Best Seller"
+      },
+      {
+        "id": "prd-hot-stone",
+        "sku": "RPK-004",
+        "name": "Add-On Volcanic Hot Stone Therapy",
+        "category": "Add-On & Produk",
+        "price": 65000,
+        "commission": 18000,
+        "duration": "+30 Menit",
+        "stock": "Tersedia"
+      },
+      {
+        "id": "prd-herbal-oil",
+        "sku": "RPK-005",
+        "name": "Essential Herbal Massage Oil Botol 100ml",
+        "category": "Add-On & Produk",
+        "price": 85000,
+        "commission": 8500,
+        "duration": "Produk Retail",
+        "stock": "Stok: 24 Btl"
+      },
+      {
+        "id": "prd-vip-room",
+        "sku": "RPK-006",
+        "name": "Upgrade Private VIP Suite Room + Wedang Jahe",
+        "category": "Add-On & Produk",
+        "price": 50000,
+        "commission": 5000,
+        "duration": "Fasilitas",
+        "stock": "2 Suite Tersedia"
+      }
+    ]
+  },
+  "portalDemo": {
+    "companyName": "PT Bungsu Mandiri Nawasena — Client & Receivable Portal",
+    "securityProtocol": "HMAC-SHA256 + Guilloche Anti-Forgery Document",
+    "invoices": [
+      {
+        "id": "INV-BMN-2026-089",
+        "receiptNo": "BMN/KWT/2026/XI/089",
+        "clientName": "Bpk. Hendra Wijaya (Unit Kavling ED3 Blok B5)",
+        "project": "Booking Fee & Termin 1 Pembangunan Unit ED3-B5",
+        "date": "05 Nov 2026",
+        "amount": 45000000,
+        "amountWords": "Empat Puluh Lima Juta Rupiah",
+        "status": "VERIFIED",
+        "paymentMethod": "DOKU Virtual Account Mandiri",
+        "hmacHash": "a9f4e812c7b309d451e28a6f01b9c83d7e42a105f8c6b21490e3a7d1c5b8f204",
+        "verifiedBy": "Sistem Otomatis Webhook DOKU & Finance PT BMN"
+      },
+      {
+        "id": "INV-BW-2026-142",
+        "receiptNo": "BW/KWT/2026/XI/142",
+        "clientName": "Aninda & Reza (Resepsi Gedung Puri Begawan)",
+        "project": "Pelunasan Termin 2 Paket Exclusive Wedding Organizer & Dekorasi",
+        "date": "06 Nov 2026",
+        "amount": 28500000,
+        "amountWords": "Dua Puluh Delapan Juta Lima Ratus Ribu Rupiah",
+        "status": "VERIFIED",
+        "paymentMethod": "DOKU Dynamic QRIS / BI-FAST",
+        "hmacHash": "7c21d098b4e6f13a5209c8d7e41b6a309f82c1d4e7a0b58321c9f6e4d8a2b170",
+        "verifiedBy": "Bianca Wedding Command Center (QR Validated)"
+      },
+      {
+        "id": "INV-RPK-2026-310",
+        "receiptNo": "RPK/FRN/2026/XI/310",
+        "clientName": "CV Sehat Sejahtera (Mitra Cabang Depok)",
+        "project": "Lisensi Sistem Cloud POS & Integrasi DOKU Gateway Q4 2026",
+        "date": "07 Nov 2026",
+        "amount": 12500000,
+        "amountWords": "Dua Belas Juta Lima Ratus Ribu Rupiah",
+        "status": "PENDING",
+        "paymentMethod": "Menunggu Pelunasan VA BCA",
+        "hmacHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "verifiedBy": "Menunggu Callback Webhook Pembayaran"
+      },
+      {
+        "id": "INV-ANV-2026-019",
+        "receiptNo": "ANV/SRM/2026/XI/019",
+        "clientName": "Panitia Roadshow Sarimi Gelas Student Cup",
+        "project": "Pencairan Dana Operasional Turnamen 12 Sekolah Wilayah Bogor",
+        "date": "04 Nov 2026",
+        "amount": 18750000,
+        "amountWords": "Delapan Belas Juta Tujuh Ratus Lima Puluh Ribu Rupiah",
+        "status": "VERIFIED",
+        "paymentMethod": "Transfer Korporat Terverifikasi",
+        "hmacHash": "4f8b6029c1d3e7a905b28f14c6e9d023a7b5c812e4f609d31a8b7c5e209f4d61",
+        "verifiedBy": "ANOVA Financial Tracker & PDF Audit"
+      }
+    ]
+  },
+  "bookingDemo": {
+    "serviceTypes": [
+      {
+        "id": "srv-audit-blueprint",
+        "name": "Sesi Discovery & Blueprint Arsitektur Sistem",
+        "subtitle": "Pemetaan alur bisnis (SOP), desain skema database, & rincian investasi",
+        "basePrice": 450000,
+        "duration": "90 Menit (Zoom / Tatap Muka Bogor–Jakarta)"
+      },
+      {
+        "id": "srv-sprint-prototype",
+        "name": "Interactive UI/UX & System Prototype Sprint",
+        "subtitle": "Pembuatan prototipe aplikasi web interaktif siap uji coba dalam 5 hari",
+        "basePrice": 2250000,
+        "duration": "5 Hari Kerja + 2x Sesi Review"
+      },
+      {
+        "id": "srv-payment-integration",
+        "name": "Paket Integrasi Cepat DOKU QRIS & E-Receipt",
+        "subtitle": "Pemasangan payment gateway otomatis & kuitansi QR pada sistem berjalan",
+        "basePrice": 3500000,
+        "duration": "7 Hari Kerja (Termasuk Sandbox & Live Test)"
+      }
+    ],
+    "timeSlots": [
+      "Senin, 10:00 WIB",
+      "Selasa, 14:00 WIB",
+      "Rabu, 19:30 WIB (Malam)",
+      "Kamis, 10:00 WIB",
+      "Jumat, 15:30 WIB",
+      "Sabtu, 10:00 WIB (Weekend Slot)"
+    ],
+    "addons": [
+      {
+        "id": "bk-addon-erd",
+        "name": "Dokumen Blueprint Skema Database (ERD) & Alur API Resmi (PDF)",
+        "price": 350000
+      },
+      {
+        "id": "bk-addon-doku",
+        "name": "Pendampingan Registrasi & Verifikasi Akun Bisnis DOKU",
+        "price": 400000
+      },
+      {
+        "id": "bk-addon-training",
+        "name": "Sesi Workshop & Pelatihan Operasional Tim/Admin (2 Jam)",
+        "price": 650000
+      }
+    ]
+  },
+  "estimator": {
+    "packages": [
+      {
+        "id": "paket-a",
+        "code": "PAKET A",
+        "name": "High-Converting Business Web",
+        "subtitle": "Company Profile Eksklusif + Lead Engine + Kalkulator / Booking WA",
+        "baseMin": 2500000,
+        "baseMax": 4500000,
+        "baseDaysMin": 5,
+        "baseDaysMax": 8,
+        "includedModules": [
+          "Desain UI/UX Modern Tech / Editorial Responsif",
+          "Halaman Layanan, Portofolio, & Kalkulator Interaktif",
+          "Integrasi Formulir Booking / Lead langsung ke WhatsApp CRM",
+          "Optimasi Kecepatan Lighthouse 95+ & Setup Cloud Hosting"
+        ]
+      },
+      {
+        "id": "paket-b",
+        "code": "PAKET B",
+        "name": "Custom Web App / Cloud POS",
+        "subtitle": "Aplikasi Kasir / Operasional + Manajemen Stok + Dynamic QRIS DOKU",
+        "baseMin": 6500000,
+        "baseMax": 12000000,
+        "baseDaysMin": 10,
+        "baseDaysMax": 18,
+        "includedModules": [
+          "Aplikasi Web Operasional / Cloud POS Kasir & Keranjang Dinamis",
+          "Database Cloud (Supabase PostgreSQL / MongoDB) + Role Login",
+          "Manajemen Katalog Produk/Jasa, Stok, & Komisi Staf",
+          "Dashboard Monitoring Omzet & Transaksi Harian Real-Time"
+        ]
+      },
+      {
+        "id": "paket-c",
+        "code": "PAKET C",
+        "name": "Full ERP / Custom Client Portal & CRM",
+        "subtitle": "Ekosistem Multi-Cabang + Multi-Role (HR/Finance/Klien) + Integrasi API",
+        "baseMin": 15000000,
+        "baseMax": 28000000,
+        "baseDaysMin": 21,
+        "baseDaysMax": 35,
+        "includedModules": [
+          "Arsitektur ERP Multi-Role (Owner, Finance, Admin, Lapangan, & Client Portal)",
+          "Manajemen Piutang/Termin (AR), Approval Anggaran, & Inventaris",
+          "Sistem Presensi Staf (Geo-Fencing GPS) & Jejak Audit Keamanan",
+          "Integrasi Custom API, Otomatisasi Dokumen, & Pelatihan Penuh"
+        ]
+      }
+    ],
+    "scaleLevels": [
+      {
+        "level": 1,
+        "label": "1 Lokasi / Operasional Tunggal (1–3 Role User)",
+        "multiplier": 1.0,
+        "extraDays": 0
+      },
+      {
+        "level": 2,
+        "label": "2–4 Cabang / Tim Menengah (3–5 Role User)",
+        "multiplier": 1.25,
+        "extraDays": 4
+      },
+      {
+        "level": 3,
+        "label": "5–10+ Cabang / Skala Franchise & Korporat",
+        "multiplier": 1.55,
+        "extraDays": 8
+      }
+    ],
+    "addons": [
+      {
+        "id": "addon-doku",
+        "name": "Setup DOKU Payment Gateway (Dynamic QRIS / Virtual Account Multi-Bank)",
+        "description": "Verifikasi pembayaran otomatis via webhook HMAC-SHA256 tanpa cek mutasi manual.",
+        "priceMin": 1500000,
+        "priceMax": 2500000,
+        "extraDays": 3,
+        "recommended": true
+      },
+      {
+        "id": "addon-export",
+        "name": "Export Laporan Pembukuan Excel (CSV) & Rekap PDF Otomatis",
+        "description": "Unduh laporan omzet, pajak, piutang, dan komisi siap cetak hanya dengan 1 klik.",
+        "priceMin": 900000,
+        "priceMax": 1500000,
+        "extraDays": 2,
+        "recommended": true
+      },
+      {
+        "id": "addon-wa-gateway",
+        "name": "Notifikasi WhatsApp Gateway / Email Invoice Otomatis",
+        "description": "Kirim bukti transaksi, pengingat jatuh tempo termin, dan status pesanan otomatis ke WA klien.",
+        "priceMin": 1200000,
+        "priceMax": 2000000,
+        "extraDays": 2,
+        "recommended": false
+      },
+      {
+        "id": "addon-ereceipt",
+        "name": "Sistem E-Receipt Terverifikasi (Guilloche Security Paper + QR Anti-Palsu)",
+        "description": "Kuitansi digital berstandar sekuritas tinggi seperti pada sistem PT BMN & Bianca Wedding.",
+        "priceMin": 1100000,
+        "priceMax": 1800000,
+        "extraDays": 2,
+        "recommended": true
+      },
+      {
+        "id": "addon-ai",
+        "name": "Integrasi Asisten AI (Google Gemini API / Analisis & Rekomendasi Cerdas)",
+        "description": "Fitur asisten AI kustom untuk rekomendasi produk/judul, ringkasan laporan, atau chatbot pintar.",
+        "priceMin": 1800000,
+        "priceMax": 3000000,
+        "extraDays": 3,
+        "recommended": false
+      }
+    ]
+  }
+}

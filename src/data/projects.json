@@ -1,0 +1,302 @@
+[
+  {
+    "id": "proj-rpk-pos",
+    "code": "SYS-01",
+    "title": "Rumah Pijat Keluarga (RPK) — Multi-Branch Cloud POS & Franchise ERP",
+    "client": "Rumah Pijat Keluarga (Jaringan 8 Cabang Wellness & Reflexology)",
+    "category": "Cloud POS & ERP",
+    "secondaryCategories": ["Payment & E-Receipt", "Multi-Branch System"],
+    "year": "2026",
+    "featured": true,
+    "statusBadge": "Production • 8 Cabang Aktif",
+    "coverImage": "Asset/img/founder-formal-suit.jpg",
+    "visualTheme": "emerald",
+    "summary": "Sistem manajemen franchise terpadu untuk 8 cabang: mencakup aplikasi PWA Kasir (RPK POS), absensi terapis berbasis titik koordinat GPS, perhitungan bagi hasil/komisi otomatis, serta dashboard monitoring keuangan real-time bagi Owner.",
+    "challenge": "Mengelola 8 cabang secara bersamaan menggunakan rekap grup chat dan pembukuan manual membuat Owner kesulitan memantau omzet harian secara akurat, rawan kecurangan absensi jam hadir terapis, serta lambat dalam menghitung komisi tindakan.",
+    "solution": "RAKIT merancang aplikasi web progresif (PWA) berbasis Next.js 15 dan MongoDB yang memisahkan antarmuka Kasir Cabang, Portal Terapis, dan Command Center Owner. Setiap transaksi langsung tercatat ke cloud, komisi terapis terhitung otomatis per sesi layanan, dan absensi terkunci dengan radius GPS cabang.",
+    "impactMetrics": [
+      { "label": "Cakupan Operasional", "value": "8 Cabang Terintegrasi" },
+      { "label": "Rekap Komisi & Omzet", "value": "Real-Time (0 Selisih)" },
+      { "label": "Validasi Kehadiran", "value": "Geo-Fencing GPS" }
+    ],
+    "modulesBuilt": [
+      "PWA Cloud POS Kasir (Transaksi Layanan, Paket & Produk Tambahan)",
+      "Sistem Absensi Terapis Berbasis Validasi Radius GPS Cabang",
+      "Kalkulator Otomatis Komisi Terapis & Bagi Hasil Cabang",
+      "Owner Financial Command Center (Perbandingan Omzet 8 Cabang)",
+      "Manajemen Pengeluaran Operasional Harian & Laporan Laba Bersih"
+    ],
+    "techStack": ["Next.js 15", "React 18", "MongoDB", "Tailwind CSS", "Radix UI", "PWA Manifest", "Geolocation API"],
+    "demoTabLink": "pos-qris"
+  },
+  {
+    "id": "proj-bmn-erp",
+    "code": "SYS-02",
+    "title": "PT Bungsu Mandiri Nawasena (PT BMN) — Property ERP V-3 & Guilloche E-Receipt",
+    "client": "PT Bungsu Mandiri Nawasena (Developer Properti & Konstruksi)",
+    "category": "Cloud POS & ERP",
+    "secondaryCategories": ["Payment & E-Receipt", "Client Portal & CRM"],
+    "year": "2026",
+    "featured": true,
+    "statusBadge": "Enterprise ERP V-3 + Security Receipt",
+    "coverImage": "Asset/img/proj-bmn-property.jpeg",
+    "logoImage": "Asset/img/proj-bmn-logo.png",
+    "visualTheme": "cyan",
+    "summary": "Ekosistem ERP properti menyeluruh (Versi 3) yang mengintegrasikan pemantauan piutang kavling/unit (AR), persetujuan anggaran berjenjang, pengadaan material lapangan, CRM prospek pembeli, serta Generator Kuitansi Digital berpola kertas sekuritas Guilloche & QR verifikasi.",
+    "challenge": "Transaksi pembelian rumah dan kavling bernilai puluhan hingga ratusan juta rupiah membutuhkan bukti pembayaran sah yang tidak bisa dipalsukan, sekaligus pemantauan termin piutang (AR), progres fisik lapangan, dan persetujuan belanja material yang ketat.",
+    "solution": "Membangun Sistem ERP V-3 terintegrasi dengan modul Keuangan (AR & Approval), Field Monitoring, Material Procurement, Attendance Staf, dan Secure Receipt Generator berstandar kertas sekuritas (Guilloche pattern, microtext 'PT BUNGSU MANDIRI NAWASENA OFFICIAL RECEIPT VALID DOCUMENT', dan QR Code verifikasi keaslian).",
+    "impactMetrics": [
+      { "label": "Keamanan Bukti Bayar", "value": "Guilloche + QR Hash" },
+      { "label": "Modul Terintegrasi", "value": "9 Modul ERP" },
+      { "label": "Cetak Dokumen Legal", "value": "Presisi A5 Landscape" }
+    ],
+    "modulesBuilt": [
+      "Dashboard Eksekutif & Persetujuan Anggaran (approval.html)",
+      "Manajemen Piutang & Termin Pembeli Unit Properti (ar.html)",
+      "Secure Receipt Generator Berpola Guilloche & Microtext (kuitansi.html)",
+      "CRM Pipeline Prospek Pembeli & Follow-up Sales (crm.html)",
+      "Pemantauan Progres Konstruksi Lapangan & Belanja Material (field.html, material.html)",
+      "Sistem Presensi Staf & Superadmin Access Control (attendance.html, admin.html)"
+    ],
+    "techStack": ["HTML5 / Modern JS", "Tailwind CSS", "Supabase / Cloud Sync", "Guilloche Security CSS", "QR Verification Engine", "Print-Ready A5 Engine"],
+    "demoTabLink": "client-portal"
+  },
+  {
+    "id": "proj-bianca-wedding",
+    "code": "SYS-03",
+    "title": "Bianca Wedding — WO Command Center, Client Portal & QR Guest Moments",
+    "client": "Bianca Wedding Organizer & Planner",
+    "category": "Client Portal & CRM",
+    "secondaryCategories": ["Payment & E-Receipt", "High-Converting Web"],
+    "year": "2026",
+    "featured": true,
+    "statusBadge": "Full-Suite WO Ecosystem (18+ Modul)",
+    "coverImage": "Asset/img/proj-bianca-logo.jpeg",
+    "visualTheme": "amber",
+    "summary": "Platform operasional satu pintu untuk Wedding Organizer: menggabungkan Landing Page & Booking Engine, Client Portal transparan bagi calon pengantin, Admin & Finance Command Center, Manajemen Inventaris Dekorasi, QR Check-in Scanner tamu, hingga galeri foto interaktif Wedding Moments.",
+    "challenge": "Mengelola puluhan proyek pernikahan secara paralel menuntut sinkronisasi antara jadwal vendor, termin pembayaran klien, ketersediaan barang dekorasi di gudang, pencairan dana kru, hingga buku tamu digital saat hari-H.",
+    "solution": "Merakit 18+ halaman sistem terhubung: calon pengantin mendapatkan akses Client Portal pribadi untuk memantau progres persiapan dan mengunduh Kuitansi Digital resmi ber-QR, sementara tim internal mengelola proyek dari Command Center, Finance Dashboard, Inventory Gudang, dan QR Scanner di lokasi acara.",
+    "impactMetrics": [
+      { "label": "Skala Sistem", "value": "18+ Modul Terhubung" },
+      { "label": "Transparansi Klien", "value": "24/7 Client Portal" },
+      { "label": "Validasi Kuitansi", "value": "QR + Microtext Valid" }
+    ],
+    "modulesBuilt": [
+      "Client Portal Pengantin (Pantau Progres, Vendor, & Riwayat Termin — client-portal.html)",
+      "Admin Command Center & Manajemen Proyek Pernikahan (admin-dashboard.html, wedding-projects.html)",
+      "Finance Dashboard, Pencairan Vendor, & Kuitansi Digital Resmi (finance-dashboard.html, pencairan.html, kuitansi.html)",
+      "Manajemen Inventaris Gudang Dekorasi & Barang (inventory.html, dasborbarang.html)",
+      "Lead Center & Automated Service Booking (lead-center.html, booking.html)",
+      "QR Guest Scanner & Live Wedding Moments Photo Wall (scanner.html, wedding-moments.html)"
+    ],
+    "techStack": ["Modern Web Stack", "Tailwind CSS", "Cloud Database", "QR Code Styling Engine", "Camera Scanner API", "Security Receipt Layout"],
+    "demoTabLink": "service-booking"
+  },
+  {
+    "id": "proj-unj-thesis",
+    "code": "SYS-04",
+    "title": "PAP Thesis Management System — Portal Skripsi Terintegrasi AI (UNJ)",
+    "client": "Prodi Pendidikan Administrasi Perkantoran (PAP), FEB Universitas Negeri Jakarta",
+    "category": "AI & EdTech Portal",
+    "secondaryCategories": ["Client Portal & CRM"],
+    "year": "2026",
+    "featured": true,
+    "statusBadge": "AI-Powered Academic System",
+    "coverImage": "Asset/img/founder-unj-speaking.jpg",
+    "visualTheme": "blue",
+    "summary": "Sistem manajemen dan pendampingan skripsi multi-role (Mahasiswa, Dosen Pembimbing, Korprodi, dan Admin) yang dilengkapi fitur Rekomendasi Judul Skripsi berbasis Google Gemini AI serta dashboard pemantauan tahapan bimbingan secara real-time.",
+    "challenge": "Proses pengajuan judul skripsi, revisi proposal, dan pemantauan progres mahasiswa bimbingan sering kali tercecer di berbagai dokumen terpisah, sehingga Koordinator Prodi kesulitan mendeteksi mahasiswa yang mengalami kendala (stale) atau keterlambatan sidang.",
+    "solution": "Membangun aplikasi full-stack menggunakan React.js (shadcn/ui + Recharts) di sisi frontend dan FastAPI (Python) + PostgreSQL (Supabase) di sisi backend, diperkuat dengan integrasi Google Gemini API untuk merekomendasikan topik skripsi yang selaras dengan mata kuliah Metopen & Metlan.",
+    "impactMetrics": [
+      { "label": "Akses Multi-Role", "value": "4 Level Otorisasi" },
+      { "label": "Mesin Asisten", "value": "Google Gemini AI" },
+      { "label": "Keamanan Autentikasi", "value": "JWT + Bcrypt" }
+    ],
+    "modulesBuilt": [
+      "Autentikasi & Otorisasi 4 Role (Mahasiswa, Dosen Pembimbing, Korprodi, Admin)",
+      "AI Thesis Title Recommender Berbasis Google Gemini API (Metopen & Metlan)",
+      "Alur Pengajuan, Catatan Revisi, & Persetujuan Judul Transparan",
+      "Pelacakan Tahapan Skripsi (Topik, Sempro, Analisis Data, hingga Sidang)",
+      "Dashboard Analitik Korprodi & Deteksi Dini Mahasiswa Butuh Perhatian (Stale)"
+    ],
+    "techStack": ["React.js", "FastAPI (Python 3.10+)", "PostgreSQL (Supabase)", "Google Gemini API", "Tailwind CSS", "shadcn/ui", "Recharts", "JWT Auth"],
+    "demoTabLink": "client-portal"
+  },
+  {
+    "id": "proj-anova-sarimi",
+    "code": "SYS-05",
+    "title": "ANOVA Project × Sarimi Gelas Student Cup 2026 — Event CRM & Financial Tracker",
+    "client": "ANOVA Project & Roadshow Sarimi Gelas Student Cup (Bogor)",
+    "category": "Client Portal & CRM",
+    "secondaryCategories": ["Cloud POS & ERP"],
+    "year": "2026",
+    "featured": false,
+    "statusBadge": "Supabase Real-Time CRM",
+    "coverImage": "Asset/img/proj-anova-sarimi.jpeg",
+    "visualTheme": "emerald",
+    "summary": "Aplikasi web manajemen operasional roadshow event dan turnamen sekolah se-Bogor berbasis Supabase PostgreSQL: memantau pipeline akuisisi sekolah (Cold, Warm, Deal), estimasi partisipasi siswa, jadwal pelaksana, arus kas keuangan, hingga ekspor otomatis CSV dan Rekap PDF.",
+    "challenge": "Tim lapangan dan penyelenggara event membutuhkan satu sumber data real-time untuk melacak status MoU puluhan sekolah target, menghitung proyeksi jumlah peserta, dan menyusun laporan keuangan instan untuk pihak sponsor.",
+    "solution": "Mengembangkan sistem terpusat dengan autentikasi berbasis role, tracker konversi sekolah (Cold/Warm/Deal) dengan progress bar real-time, kalender jadwal mendekat, modul pembukuan keuangan, dan tombol 1-klik untuk mengunduh laporan ke format Sheet/CSV maupun dokumen PDF siap cetak.",
+    "impactMetrics": [
+      { "label": "Sinkronisasi Data", "value": "Supabase Real-Time" },
+      { "label": "Ekspor Laporan", "value": "1-Klik PDF & CSV" },
+      { "label": "Pipeline Tracking", "value": "Cold → Warm → Deal" }
+    ],
+    "modulesBuilt": [
+      "Dashboard Operasional Target Deal Sekolah & Estimasi Murid (dashboard.html)",
+      "Manajemen Arus Kas & Pembukuan Keuangan Event (keuangan.html)",
+      "Generator Rekap Laporan PDF Otomatis & Ekspor CSV (laporan.html)",
+      "Kalender Penjadwalan Roadshow Sekolah (tanggal.html)",
+      "Sistem Login Berbasis Role Tim (index.html)"
+    ],
+    "techStack": ["Supabase PostgreSQL", "JavaScript ES6+", "Tailwind CSS", "html2pdf.js", "CSV Export Engine"],
+    "demoTabLink": "client-portal"
+  },
+  {
+    "id": "proj-mandor-pro",
+    "code": "SYS-06",
+    "title": "MANDOR PRO — Algorithmic Market Signal & Risk Management War Room",
+    "client": "Internal Quantitative & Market Analytics Tool",
+    "category": "AI & EdTech Portal",
+    "secondaryCategories": ["Cloud POS & ERP"],
+    "year": "2026",
+    "featured": false,
+    "statusBadge": "Python Quant Engine + War Room UI",
+    "coverImage": "Asset/img/founder-executive-mic.jpg",
+    "visualTheme": "amber",
+    "summary": "Platform analitik pasar dan ruang komando (War Room) yang memadukan engine pemrosesan indikator teknikal, manajemen risiko otomatis, dan backtesting historis berbasis Python dengan dashboard pemantauan sinyal berdesain finansial editorial.",
+    "challenge": "Pengambilan keputusan transaksi sering kali bias emosi tanpa perhitungan rasio risiko (risk-to-reward) dan pengujian data historis (backtesting) yang terukur.",
+    "solution": "Merakit arsitektur mesin skoring multi-indikator (`indicator_engine.py`, `scoring_engine.py`, `risk_engine.py`, `backtester.py`) yang menyajikan rekomendasi terukur lengkap dengan kalkulasi batas risiko dan pelacakan performa pada antarmuka web War Room yang bersih.",
+    "impactMetrics": [
+      { "label": "Arsitektur Mesin", "value": "5 Modul Python Quant" },
+      { "label": "Validasi Strategi", "value": "Automated Backtester" },
+      { "label": "Manajemen Risiko", "value": "Dynamic Risk Engine" }
+    ],
+    "modulesBuilt": [
+      "Antarmuka Eksekutif MANDOR PRO War Room (index.html)",
+      "Technical Indicator & Multi-Factor Scoring Engine (indicator_engine.py, scoring_engine.py)",
+      "Automated Position Sizing & Risk Engine (risk_engine.py)",
+      "Historical Data Fetcher & Strategy Backtester (data_fetcher.py, backtester.py)",
+      "Active Trade Tracker & Performance Logger (trade_tracker.py)"
+    ],
+    "techStack": ["Python 3", "Quantitative Scoring Engine", "HTML5 / Editorial Finance CSS", "Automated Backtesting", "CSV Time-Series Processing"],
+    "demoTabLink": "pos-qris"
+  },
+  {
+    "id": "proj-academic-pro",
+    "code": "SYS-07",
+    "title": "Academic Pro & Gemini Suite — Platform Layanan Riset & Dynamic Invoice Maker",
+    "client": "Academic Pro (Layanan Pendampingan Riset & Lisensi Produktivitas AI)",
+    "category": "Payment & E-Receipt",
+    "secondaryCategories": ["High-Converting Web"],
+    "year": "2026",
+    "featured": false,
+    "statusBadge": "Lead Engine + Dynamic Invoicing",
+    "coverImage": "Asset/img/founder-keynote-stage.jpg",
+    "visualTheme": "blue",
+    "summary": "Ekosistem bisnis jasa edukasi dan produktivitas akademik yang menggabungkan halaman penawaran berkonversi tinggi, dashboard admin operasional, manajemen pelanggan lisensi Gemini Pro, serta aplikasi pembuat invoice dinamis (Dynamic Invoice Maker).",
+    "challenge": "Bisnis jasa konsultasi dan produk digital membutuhkan alur penerbitan tagihan (invoice) yang cepat dan seragam serta halaman katalog yang meyakinkan calon klien tanpa proses tanya-jawab manual yang panjang.",
+    "solution": "Membangun landing page berkonversi tinggi yang terhubung langsung dengan Admin Dashboard, panel manajemen reseller lisensi AI (`gemini.html`), dan dua varian Dynamic Invoice Maker untuk menerbitkan tagihan profesional dalam hitungan detik.",
+    "impactMetrics": [
+      { "label": "Penerbitan Tagihan", "value": "< 15 Detik / Invoice" },
+      { "label": "Modul Operasional", "value": "Landing + Admin + Billing" },
+      { "label": "Konversi Prospek", "value": "Direct WA Checkout" }
+    ],
+    "modulesBuilt": [
+      "High-Converting Service & Pricing Platform (index.html)",
+      "Dynamic Invoice Maker & Billing Generator (invoice.html, invoice1.html)",
+      "Operational Admin Dashboard (dashboard.html)",
+      "Gemini Pro Reseller & Subscription Management Panel (gemini.html)"
+    ],
+    "techStack": ["Plus Jakarta Sans UI", "JavaScript Dynamic DOM", "Invoice Print Engine", "WhatsApp Conversion Funnel"],
+    "demoTabLink": "service-booking"
+  },
+  {
+    "id": "proj-adeeva-wo",
+    "code": "SYS-08",
+    "title": "Adeeva Wedding Organizer — High-Converting Booking Funnel & Crew Portal",
+    "client": "Adeeva Wedding & Event Management",
+    "category": "High-Converting Web",
+    "secondaryCategories": ["Client Portal & CRM"],
+    "year": "2026",
+    "featured": false,
+    "statusBadge": "Ad Funnel + Internal Crew Portal",
+    "coverImage": "Asset/img/proj-adeeva-banner.png",
+    "visualTheme": "amber",
+    "summary": "Platform digital elegan untuk Adeeva Organizer yang memadukan katalog paket pernikahan, halaman khusus konversi iklan (Ad Landing Page) terintegrasi konsultasi WhatsApp, serta portal login internal untuk kru lapangan.",
+    "challenge": "Trafik dari iklan media sosial sering terbuang karena diarahkan ke halaman umum yang lambat, sementara koordinasi kru lapangan membutuhkan portal akses terpisah yang ringkas di perangkat seluler.",
+    "solution": "Merancang halaman utama berestetika Navy & Gold yang mewah, halaman khusus kampanye iklan (`iklan.html`) yang dioptimalkan untuk layar smartphone dengan pemicu chat konsultasi instan, serta portal staf (`login.html`, `dashboard.html`).",
+    "impactMetrics": [
+      { "label": "Optimasi Trafik Iklan", "value": "Dedicated Ad Funnel" },
+      { "label": "Koordinasi Tim", "value": "Staff & Crew Portal" },
+      { "label": "Kecepatan Muat", "value": "Zero-Framework Bloat" }
+    ],
+    "modulesBuilt": [
+      "Company Profile & Katalog Paket Pernikahan (index.html)",
+      "Mobile-First Ad Conversion & Chat Funnel (iklan.html)",
+      "Portal Autentikasi Staf & Kru (login.html)",
+      "Dashboard Operasional Kru Lapangan (dashboard.html)"
+    ],
+    "techStack": ["Custom Responsive CSS", "Vanilla JS", "WhatsApp CRM Linker", "Mobile Ad Funnel Architecture"],
+    "demoTabLink": "service-booking"
+  },
+  {
+    "id": "proj-edugreen",
+    "code": "SYS-09",
+    "title": "EduGreen — Sistem Informasi & Manajemen Sekolah Terpadu",
+    "client": "Inovasi Sistem Manajemen Institusi Pendidikan",
+    "category": "AI & EdTech Portal",
+    "secondaryCategories": ["Client Portal & CRM"],
+    "year": "2026",
+    "featured": false,
+    "statusBadge": "SPA School Portal + ERD Architecture",
+    "coverImage": "Asset/img/proj-edugreen-erd.jpeg",
+    "visualTheme": "emerald",
+    "summary": "Aplikasi satu halaman (Single-Page Application) manajemen sekolah pintar yang mengintegrasikan portal informasi publik, gerbang login multi-pengguna, visualisasi analitik akademik interaktif (Chart.js), dan perancangan skema basis data relasional (ERD) yang terstruktur.",
+    "challenge": "Sekolah membutuhkan sistem informasi yang ringan, mudah dinavigasi oleh guru maupun siswa tanpa waktu tunggu pindah halaman yang lambat, serta memiliki struktur relasi data akademik yang rapi.",
+    "solution": "Merancang arsitektur Entity-Relationship Diagram (ERD) yang matang dan mengimplementasikannya ke dalam antarmuka SPA berbasis Tailwind CSS dan Chart.js untuk visualisasi statistik kehadiran serta capaian akademik secara instan.",
+    "impactMetrics": [
+      { "label": "Transisi Halaman", "value": "Instant SPA (<50ms)" },
+      { "label": "Arsitektur Data", "value": "Normalized ERD Schema" },
+      { "label": "Visualisasi Metrik", "value": "Interactive Chart.js" }
+    ],
+    "modulesBuilt": [
+      "Portal Utama & Landing Page Institusi (index.html)",
+      "Sistem Navigasi SPA Tanpa Reload Antar-Modul",
+      "Dashboard Analitik Akademik & Kehadiran Berbasis Chart.js",
+      "Rancangan Skema Basis Data Relasional (erd.jpeg)"
+    ],
+    "techStack": ["Tailwind CSS", "Chart.js", "SPA State Router", "Relational Database Design (ERD)"],
+    "demoTabLink": "client-portal"
+  },
+  {
+    "id": "proj-yafi-stage",
+    "code": "SYS-10",
+    "title": "YAFI. Official Digital Stage — Editorial Portfolio & Automated Event Inquiry",
+    "client": "Personal Brand Muhammad Yafi Abdul Hafiz (MC & Public Speaker)",
+    "category": "High-Converting Web",
+    "secondaryCategories": ["Client Portal & CRM"],
+    "year": "2026",
+    "featured": false,
+    "statusBadge": "Live on Vercel • React 19 + Framer Motion",
+    "coverImage": "Asset/img/founder-keynote-stage.jpg",
+    "visualTheme": "cyan",
+    "summary": "Website portofolio editorial interaktif berstandar tinggi yang dibangun dengan React 19, Framer Motion 12, dan esbuild: menampilkan pengubah persona panggung, filter arsip multi-kategori, pemutar video hemat kuota, serta perancang pesan reservasi WhatsApp otomatis.",
+    "challenge": "Menyajikan puluhan dokumentasi foto panggung, sertifikasi resmi, dan rekaman video resolusi tinggi dalam satu halaman tanpa mengorbankan kecepatan muat (Core Web Vitals) di perangkat seluler calon klien.",
+    "solution": "Menggunakan arsitektur bundel esbuild ultra-ringan, komponen LazyVideoPlayer dengan poster teroptimasi, dialog detail acara interaktif, dan formulir reservasi pintar yang menyusun draf pesan WhatsApp secara real-time.",
+    "impactMetrics": [
+      { "label": "Waktu Kompilasi", "value": "< 250ms (esbuild)" },
+      { "label": "Interaktivitas", "value": "Spring Physics UI" },
+      { "label": "Deployment", "value": "Production Vercel" }
+    ],
+    "modulesBuilt": [
+      "Interactive Stage Persona Switcher & Parallax Hero",
+      "Filterable Event & Video Archive dengan Modal Galeri",
+      "Verified Statistics Counter & Certificate Proof Viewer",
+      "Real-Time WhatsApp Inquiry Builder & Copy-to-Clipboard"
+    ],
+    "techStack": ["React 19", "Framer Motion 12", "Lucide React", "esbuild", "Editorial CSS Variables", "Vercel Edge"],
+    "liveUrl": "https://portofolio-yafii-phi.vercel.app/",
+    "demoTabLink": "service-booking"
+  }
+]
