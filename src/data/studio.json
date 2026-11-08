@@ -28,37 +28,9 @@
     ],
     "telemetryModes": [
       {
-        "id": "founder-mode",
-        "label": "Founder Mode",
-        "roleTag": "Founder & Systems Architect",
+        "id": "founder",
         "image": "Asset/img/founder-mode.jpg",
-        "alt": "Muhammad Yafi Abdul Hafiz — Founder & Lead Systems Architect RAKIT Studio (Founder Mode)",
-        "caption": "Muhammad Yafi Abdul Hafiz — Founder & Lead Systems Architect RAKIT Studio",
-        "systemStatus": "● LIVE BROADCAST // RAKIT ARCHITECTURE // 4K 60FPS",
-        "liveMetricLabel": "Founder Presence",
-        "liveMetricValue": "Active & Ready"
-      },
-      {
-        "id": "executive-consultation",
-        "label": "B2B Strategy",
-        "roleTag": "Business Process & ERP",
-        "image": "Asset/img/founder-executive-mic.jpg",
-        "alt": "Muhammad Yafi Abdul Hafiz memaparkan strategi sistem dan tata kelola operasional",
-        "caption": "Pendekatan Konsultatif — Menjembatani Kebutuhan Bisnis & Arsitektur Kode Presisi",
-        "systemStatus": "DOKU Direct API • Supabase RLS • HMAC-SHA256",
-        "liveMetricLabel": "Lighthouse Performance",
-        "liveMetricValue": "98 / 100 Skor Murni"
-      },
-      {
-        "id": "academic-innovation",
-        "label": "AI & EdTech",
-        "roleTag": "AI & Enterprise Automation",
-        "image": "Asset/img/founder-unj-speaking.jpg",
-        "alt": "Muhammad Yafi Abdul Hafiz berbicara dalam forum inovasi dan kepemimpinan sistem",
-        "caption": "Inovasi Berstandar Internasional — MSU Malaysia AI-Innovation Recognition 2025",
-        "systemStatus": "Google Gemini AI • FastAPI • Real-Time Sync",
-        "liveMetricLabel": "Uptime Infrastruktur",
-        "liveMetricValue": "99.9% Edge Cloud"
+        "alt": "Muhammad Yafi Abdul Hafiz — Founder & Lead Systems Architect RAKIT Studio"
       }
     ]
   },

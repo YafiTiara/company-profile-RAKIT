@@ -1,20 +1,16 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import {
   ArrowDownRight,
   MessageSquareCode,
   ShieldCheck,
-  Terminal,
   Zap,
   CheckCircle2,
   Play,
   Sparkles,
   CreditCard,
   Lock,
-  Cpu,
-  Layers,
-  Volume2,
-  Video
+  Cpu
 } from 'lucide-react';
 import { useMotionPreference, EASE_TECH } from '../components/MotionContext.jsx';
 import { MagneticButton } from '../components/MagneticButton.jsx';
@@ -24,18 +20,17 @@ export function HeroSection({ studio }) {
   const heroRef = useRef(null);
   const stageRef = useRef(null);
 
-  const modes = studio.hero.telemetryModes;
-  const [activeMode, setActiveMode] = useState(modes[0]);
+  // Single dedicated founder image
+  const founderPhoto = 'Asset/img/founder-mode.jpg';
 
   // Interactive 3D Tilt State
   const [tilt, setTilt] = useState({ x: 0, y: 0 });
   const [isHoveringStage, setIsHoveringStage] = useState(false);
 
-  // Waving & Greeting Interaction State (Inspired by 21st.dev Waving Portfolio)
+  // Waving & Greeting Interaction State (21st.dev inspired)
   const [hasGreetedBack, setHasGreetedBack] = useState(false);
-  const [waveCounter, setWaveCounter] = useState(0);
 
-  // Timer counter for video HUD (e.g. 00:00:24)
+  // Running video timer (e.g. 00:01:24)
   const [streamSeconds, setStreamSeconds] = useState(24);
 
   useEffect(() => {
@@ -56,8 +51,8 @@ export function HeroSection({ studio }) {
     offset: ['start start', 'end start']
   });
 
-  const imageY = useTransform(scrollYProgress, [0, 1], ['0%', motionEnabled ? '8%' : '0%']);
-  const textY = useTransform(scrollYProgress, [0, 1], ['0%', motionEnabled ? '4%' : '0%']);
+  const imageY = useTransform(scrollYProgress, [0, 1], ['0%', motionEnabled ? '6%' : '0%']);
+  const textY = useTransform(scrollYProgress, [0, 1], ['0%', motionEnabled ? '3%' : '0%']);
 
   const handleMouseMove = (e) => {
     if (!motionEnabled || !stageRef.current) return;
@@ -65,7 +60,7 @@ export function HeroSection({ studio }) {
     const rect = stageRef.current.getBoundingClientRect();
     const x = (e.clientX - (rect.left + rect.width / 2)) / (rect.width / 2);
     const y = (e.clientY - (rect.top + rect.height / 2)) / (rect.height / 2);
-    setTilt({ x: -y * 7, y: x * 7 });
+    setTilt({ x: -y * 6, y: x * 6 });
   };
 
   const handleMouseLeave = () => {
@@ -83,16 +78,15 @@ export function HeroSection({ studio }) {
 
   const handleGreetBack = () => {
     setHasGreetedBack((prev) => !prev);
-    setWaveCounter((c) => c + 1);
   };
 
   return (
     <section id="home" ref={heroRef} className="hero-section">
-      {/* Background Ambient Glow & Cinematic Grid */}
+      {/* Background Ambient Glow & Grid Pattern */}
       <div className="hero-ambient-glow" aria-hidden="true" />
       <div className="hero-grid-pattern" aria-hidden="true" />
 
-      {/* Kinetic Backdrop Typography (Inspired by 21st.dev's large PO RT LIO) */}
+      {/* Kinetic Backdrop Typography (Inspired by 21st.dev) */}
       <div className="hero-kinetic-backdrop" aria-hidden="true">
         <span className="kinetic-word is-left">RAKIT</span>
         <span className="kinetic-word is-right">STUDIO</span>
@@ -175,7 +169,7 @@ export function HeroSection({ studio }) {
             onMouseEnter={() => setIsHoveringStage(true)}
             onMouseLeave={handleMouseLeave}
           >
-            {/* 3D Holographic Orbiting Rings (Around Yafi) */}
+            {/* 3D Holographic Orbiting Rings (Contained safely) */}
             <div className="orbit-3d-system" aria-hidden="true">
               <div className="orbit-ring orbit-ring-cyan">
                 <span className="orbit-satellite is-cyan" />
@@ -184,85 +178,6 @@ export function HeroSection({ studio }) {
                 <span className="orbit-satellite is-emerald" />
               </div>
             </div>
-
-            {/* Floating 3D Orbiting Badges (Elevated in 3D Space) */}
-            <motion.div
-              className="orbit-floating-badge badge-top-left"
-              animate={
-                motionEnabled
-                  ? {
-                      y: [0, -7, 0],
-                      x: [0, -3, 0]
-                    }
-                  : undefined
-              }
-              transition={{ duration: 4.2, repeat: Infinity, ease: 'easeInOut' }}
-            >
-              <span className="badge-glow-dot is-cyan" />
-              <Zap size={13} className="cyan-icon" />
-              <div className="floating-badge-text">
-                <strong>Sub-Second Load</strong>
-                <small>98/100 Lighthouse</small>
-              </div>
-            </motion.div>
-
-            <motion.div
-              className="orbit-floating-badge badge-top-right"
-              animate={
-                motionEnabled
-                  ? {
-                      y: [0, 8, 0],
-                      x: [0, 3, 0]
-                    }
-                  : undefined
-              }
-              transition={{ duration: 4.8, repeat: Infinity, ease: 'easeInOut', delay: 0.4 }}
-            >
-              <span className="badge-glow-dot is-green" />
-              <CreditCard size={13} className="emerald-icon" />
-              <div className="floating-badge-text">
-                <strong>DOKU Dynamic QRIS</strong>
-                <small>Instant Webhook Sync</small>
-              </div>
-            </motion.div>
-
-            <motion.div
-              className="orbit-floating-badge badge-bottom-left"
-              animate={
-                motionEnabled
-                  ? {
-                      y: [0, -6, 0],
-                      x: [0, 2, 0]
-                    }
-                  : undefined
-              }
-              transition={{ duration: 5.1, repeat: Infinity, ease: 'easeInOut', delay: 0.8 }}
-            >
-              <Lock size={13} className="cyan-icon" />
-              <div className="floating-badge-text">
-                <strong>HMAC-SHA256</strong>
-                <small>Bank-Grade Security</small>
-              </div>
-            </motion.div>
-
-            <motion.div
-              className="orbit-floating-badge badge-bottom-right"
-              animate={
-                motionEnabled
-                  ? {
-                      y: [0, 7, 0],
-                      x: [0, -2, 0]
-                    }
-                  : undefined
-              }
-              transition={{ duration: 4.5, repeat: Infinity, ease: 'easeInOut', delay: 1.1 }}
-            >
-              <Cpu size={13} className="emerald-icon" />
-              <div className="floating-badge-text">
-                <strong>Next.js + Supabase</strong>
-                <small>Scalable Cloud POS</small>
-              </div>
-            </motion.div>
 
             {/* Main Interactive Stage Frame with 3D Tilt */}
             <motion.div
@@ -285,7 +200,7 @@ export function HeroSection({ studio }) {
                 </div>
 
                 {/* Animated Audio Equalizer Wave (Representing Yafi speaking) */}
-                <div className="audio-equalizer-bars" title="Founder Audio Stream Active">
+                <div className="audio-equalizer-bars" title="Audio Stream Aktif">
                   <span className="eq-bar eq-bar-1" />
                   <span className="eq-bar eq-bar-2" />
                   <span className="eq-bar eq-bar-3" />
@@ -293,9 +208,9 @@ export function HeroSection({ studio }) {
                   <span className="eq-bar eq-bar-5" />
                 </div>
 
-                <span className="telemetry-metric-pill">
-                  <Zap size={12} />
-                  {activeMode.liveMetricValue}
+                <span className="telemetry-verified-pill">
+                  <ShieldCheck size={13} className="cyan-icon" />
+                  <span>BNSP Certified</span>
                 </span>
               </div>
 
@@ -305,24 +220,30 @@ export function HeroSection({ studio }) {
               <div className="hud-corner-bracket bottom-left" aria-hidden="true" />
               <div className="hud-corner-bracket bottom-right" aria-hidden="true" />
 
-              {/* Main Photo Wrap */}
+              {/* Main Photo Wrap: Tall vertical portrait ratio showing face, smile, glasses, and posture */}
               <div className="hero-main-photo-wrap">
                 <img
-                  key={activeMode.image}
-                  src={activeMode.image}
-                  alt={activeMode.alt}
+                  src={founderPhoto}
+                  alt="Muhammad Yafi' Abdul Hafiz — Founder & Lead Systems Architect RAKIT Studio"
                   fetchPriority="high"
                   className="hero-main-photo"
                 />
 
+                {/* Gradient overlay placed subtly at bottom to guarantee speech bubble text contrast */}
                 <div className="hero-photo-gradient" aria-hidden="true" />
 
-                {/* Interactive 21st.dev-Inspired Waving Speech Bubble Greeting */}
+                {/* Discreet Founder Presence Badge (Top-left inside photo) */}
+                <div className="hero-founder-presence-badge">
+                  <span className="pulse-green-dot" />
+                  <span>ORANG DI BALIK RAKIT STUDIO</span>
+                </div>
+
+                {/* Interactive 21st.dev-Inspired Waving Speech Bubble Greeting (Docked at BOTTOM of photo over suit) */}
                 <motion.div
                   className={`waving-greeting-card ${hasGreetedBack ? 'is-greeted' : ''}`}
-                  initial={{ opacity: 0, y: -16, scale: 0.94 }}
-                  animate={{ opacity: 1, y: 0, scale: 1 }}
-                  transition={{ duration: 0.6, delay: 0.3 }}
+                  initial={{ opacity: 0, y: 14 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.2 }}
                 >
                   <div className="greeting-card-inner">
                     <motion.div
@@ -346,13 +267,13 @@ export function HeroSection({ studio }) {
 
                     <div className="greeting-card-content">
                       <div className="greeting-title-row">
-                        <strong>Halo, Rekan Bisnis! Saya Yafi</strong>
+                        <strong>Halo! Saya Yafi</strong>
                         <span className="greeting-role-chip">Founder RAKIT</span>
                       </div>
                       <p className="greeting-text">
                         {!hasGreetedBack
-                          ? 'Siap merakit sistem web, Cloud POS, dan payment gateway otomatis untuk bisnis Anda?'
-                          : '✨ Senang bertemu Anda! Yuk konsultasikan kebutuhan sistem Anda atau coba Live Demo di bawah.'}
+                          ? 'Membangun website kustom, Cloud POS kasir, & payment gateway langsung dari tangan pertama.'
+                          : '✨ Senang bertemu Anda! Yuk konsultasikan sistem bisnis Anda atau coba Live Demo di bawah.'}
                       </p>
                     </div>
 
@@ -368,52 +289,55 @@ export function HeroSection({ studio }) {
                     </button>
                   </div>
                 </motion.div>
+              </div>
 
-                {/* Floating Live Architecture Telemetry Status */}
-                <div className="hero-floating-code-badge">
-                  <span className="code-dot is-green" />
-                  <code>{activeMode.systemStatus}</code>
-                </div>
-
-                {/* Bottom Photo Caption Box */}
-                <div className="hero-photo-caption-box">
-                  <div>
-                    <span className="hero-subject-name">
-                      {studio.founderName} — Founder &amp; Systems Architect
-                    </span>
-                    <p className="hero-photo-caption-text">{activeMode.caption}</p>
-                  </div>
-                  <span className="hero-verified-doc-tag">
-                    <ShieldCheck size={14} />
-                    <span>BNSP Verified Engineer</span>
+              {/* Founder Identity Meta Strip Under Photo */}
+              <div className="hero-founder-identity-card">
+                <div className="founder-id-meta">
+                  <span className="founder-real-name">{studio.founderName}</span>
+                  <span className="founder-title-role">
+                    Founder &amp; Lead Systems Architect — RAKIT Studio
                   </span>
+                </div>
+                <div className="founder-id-status">
+                  <span className="status-live-dot" />
+                  <span>Active Builder</span>
                 </div>
               </div>
 
-              {/* Interactive Mode Switcher */}
-              <div
-                className="hero-stage-switcher"
-                role="group"
-                aria-label="Pilih fokus kepemimpinan teknis RAKIT Studio"
-              >
-                {modes.map((mode) => {
-                  const isSelected = activeMode.id === mode.id;
-                  return (
-                    <button
-                      key={mode.id}
-                      type="button"
-                      onClick={() => setActiveMode(mode)}
-                      className={`stage-switch-btn ${isSelected ? 'is-active' : ''}`}
-                      aria-pressed={isSelected}
-                    >
-                      <img src={mode.image} alt="" className="stage-switch-thumb" />
-                      <div className="stage-switch-meta">
-                        <span className="stage-switch-title">{mode.label}</span>
-                        <span className="stage-switch-sub">{mode.roleTag}</span>
-                      </div>
-                    </button>
-                  );
-                })}
+              {/* 4 Core Architecture Badges: Integrated cleanly inside the frame (Zero overflow on mobile!) */}
+              <div className="hero-feature-matrix" aria-label="Spesifikasi Arsitektur Sistem">
+                <div className="feature-matrix-item">
+                  <Zap size={14} className="cyan-icon" />
+                  <div className="feature-item-text">
+                    <strong>Sub-Second Load</strong>
+                    <small>98/100 Speed</small>
+                  </div>
+                </div>
+
+                <div className="feature-matrix-item">
+                  <CreditCard size={14} className="emerald-icon" />
+                  <div className="feature-item-text">
+                    <strong>DOKU Dynamic QRIS</strong>
+                    <small>Instant Webhook</small>
+                  </div>
+                </div>
+
+                <div className="feature-matrix-item">
+                  <Lock size={14} className="cyan-icon" />
+                  <div className="feature-item-text">
+                    <strong>HMAC-SHA256</strong>
+                    <small>Bank-Grade Security</small>
+                  </div>
+                </div>
+
+                <div className="feature-matrix-item">
+                  <Cpu size={14} className="emerald-icon" />
+                  <div className="feature-item-text">
+                    <strong>Next.js + Supabase</strong>
+                    <small>Scalable Cloud Engine</small>
+                  </div>
+                </div>
               </div>
             </motion.div>
           </div>
